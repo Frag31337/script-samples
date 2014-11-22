@@ -9,7 +9,7 @@
         }
         });
         
-        if(!Game.creeps[i] && creatingIn.length === 0) {
+        if(!Game.creeps[i] && creatingIn.iength === 0) {
             Memory.creeps[i] = undefined;
         }
     }
